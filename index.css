@@ -1,0 +1,196 @@
+body{
+    margin: 0%;
+}
+#head {
+    background-color: aquamarine;
+    margin: 0%;
+    display: flex; justify-content: center;
+    
+}
+
+#header {
+    font-size: xx-large;
+    font-style: oblique;
+    color: darkred;
+    margin: 0%;
+    display: flex; 
+}
+
+#ring {
+    background-image: url("./boxing-ring-arena-free-vector-removebg-preview\ \(1\).png");
+height: 45vw; width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+margin: 0%;
+}
+
+#navbar{
+    width: 15vw;
+    height: 10vw;
+    border-radius: 40%;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    #navlist{
+        font-size: 8px;
+    }
+    #navbar{
+        width:20vw;
+        height: 20vw;
+    }
+}
+
+#header2{
+    margin: 0%;
+    border: solid burlywood;
+display: flex;
+justify-content: flex-end;
+margin-right: 10%;
+font-style: oblique;
+color: green;
+animation: colr 4s ease-in-out infinite;
+}
+
+@keyframes colr{
+    from{
+         background-color: burlywood;
+        }
+  
+        to{ 
+            background-color: black;
+         }
+        }
+
+
+        @media screen and (max-width:768px){
+#header2{
+    display: flex;
+    justify-content: space-evenly;
+}
+        }   
+
+        #hr1{
+    margin: 0%;
+}
+
+
+#news{
+margin: 0%;
+display: flex;
+}
+
+#venum{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-style: inherit;
+    color: crimson;
+    animation: ven 6s ease-in-out infinite;
+}
+
+
+@keyframes ven{
+    from{
+         background-color: silver;
+        }
+  
+        to{ 
+            background-color: springgreen;
+         }
+        }
+
+#items{
+text-align: center;
+background-color: aquamarine;
+margin: 0;
+
+}
+
+#shop{
+   margin: 0; 
+    size: cover;
+    animation: anim 6s ease-in-out infinite;
+}
+
+@keyframes anim{
+    from{
+         background-color: orangered;
+        }
+  
+        to{ 
+            background-color: navy;
+         }
+        }
+
+#fights{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15vw;
+}
+
+#fight{
+    display: flex;
+    justify-content: space-around;
+}
+
+#top10{
+    color: firebrick;
+}
+
+#mguard{
+color: firebrick;
+}
+
+#cletos{
+    color: firebrick;
+}
+
+#sguard{
+    color: firebrick;
+}
+
+#contact{
+    margin: 0;
+    border-style: hidden;
+    background-color: rgb(210, 224, 237);          
+ }
+
+ #us{
+    margin: 0;
+    color: darkorange;
+    animation: su 6s ease-in-out infinite;
+ }
+
+ @keyframes su{
+    from{
+         background-color: black;
+        }
+  
+        to{ 
+            background-color: yellow;
+         }
+        }
+
+ #aiba a img:hover {
+    box-shadow: 15px 10px 10px 7px black;
+    transition: ease-in-out 1000ms;
+}
+
+#mouth a img:hover {
+    box-shadow: 15px 10px 10px 7px black;
+    transition: ease-in-out 1000ms;
+}
+ 
+#cleto a img:hover{
+    box-shadow: 15px 10px 10px 7px black;
+    transition: ease-in-out 1000ms; 
+}
+
+#rdx a img:hover{
+    box-shadow: 15px 10px 10px 7px black;
+    transition: ease-in-out 1000ms;
+}
